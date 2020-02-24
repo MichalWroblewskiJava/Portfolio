@@ -23,16 +23,18 @@
  }
  
  .nav {
+     width: 100%;
      display: flex;
      align-items: center;
-     position: absolute;
-     left: 50%;
-     top: 50%;
-     transform: translate(-50%, -50%);
+     justify-content: center;
      font-size: x-large;
  }
  
  .nav_list {
      display: flex;
      list-style: none;
+ }
+ 
+ .nav_item {
+     margin: 20px;
  }
