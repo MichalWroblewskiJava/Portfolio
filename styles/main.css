@@ -83,8 +83,21 @@
          width: 200px;
          align-items: center;
          font-size: 16px;
+        
      }
      
      .contact_link:hover {
          color: rgba(18, 18, 129, 0.63);
      }
+     .contact_link .icon_description{
+       visibility: hidden;
+       
+    }
+    .contact_link:hover .icon_description{
+        visibility: visible;
+        background-color: rgba(18, 18, 129, 0.63);
+        color: #eeeeee;
+        text-align: center;
+        padding: 5px git;
+        border-radius: 6px;
+    }
